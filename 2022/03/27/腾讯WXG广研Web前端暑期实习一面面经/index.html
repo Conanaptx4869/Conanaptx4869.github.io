@@ -20,19 +20,22 @@
     var CONFIG = {"hostname":"example.com","root":"/","scheme":"Pisces","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":true,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
   </script>
 
-  <meta name="description" content="前端学习记录，包含Vue、JavaScript、HTML、CSS学习历程，面试经历，想到啥写啥">
-<meta property="og:type" content="website">
-<meta property="og:title" content="标签">
-<meta property="og:url" content="http://example.com/tags/index.html">
+  <meta name="description" content="前言3.25，第五次面试，腾讯WXG广州研发团队一面，工作地点广州，使用腾讯会议线上面试。 三点通知八点开始，一次不按套路来的面试。。加上电脑没电和断网，状态和体验都不太好。总流程大概90分钟。 没有录屏，靠记忆记录部分内容 记录的回答是当时的原话，可能答案是错误的。 斜体部分为补充的正确答案。 代码题上来先做五十分钟题。。真的怪 洗牌算法：对52张牌洗牌，要求尽量洗乱，而且原牌不能在原位置上重复">
+<meta property="og:type" content="article">
+<meta property="og:title" content="美团民宿Web前端暑期实习二面面经">
+<meta property="og:url" content="http://example.com/2022/03/27/%E8%85%BE%E8%AE%AFWXG%E5%B9%BF%E7%A0%94Web%E5%89%8D%E7%AB%AF%E6%9A%91%E6%9C%9F%E5%AE%9E%E4%B9%A0%E4%B8%80%E9%9D%A2%E9%9D%A2%E7%BB%8F/index.html">
 <meta property="og:site_name" content="冬杨">
-<meta property="og:description" content="前端学习记录，包含Vue、JavaScript、HTML、CSS学习历程，面试经历，想到啥写啥">
+<meta property="og:description" content="前言3.25，第五次面试，腾讯WXG广州研发团队一面，工作地点广州，使用腾讯会议线上面试。 三点通知八点开始，一次不按套路来的面试。。加上电脑没电和断网，状态和体验都不太好。总流程大概90分钟。 没有录屏，靠记忆记录部分内容 记录的回答是当时的原话，可能答案是错误的。 斜体部分为补充的正确答案。 代码题上来先做五十分钟题。。真的怪 洗牌算法：对52张牌洗牌，要求尽量洗乱，而且原牌不能在原位置上重复">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2022-03-18T05:02:36.000Z">
-<meta property="article:modified_time" content="2022-03-18T05:10:34.802Z">
+<meta property="article:published_time" content="2022-03-27T03:30:00.000Z">
+<meta property="article:modified_time" content="2022-03-27T03:34:43.538Z">
 <meta property="article:author" content="Conanaptx4869">
+<meta property="article:tag" content="面经">
+<meta property="article:tag" content="腾讯">
+<meta property="article:tag" content="WXG">
 <meta name="twitter:card" content="summary">
 
-<link rel="canonical" href="http://example.com/tags/">
+<link rel="canonical" href="http://example.com/2022/03/27/%E8%85%BE%E8%AE%AFWXG%E5%B9%BF%E7%A0%94Web%E5%89%8D%E7%AB%AF%E6%9A%91%E6%9C%9F%E5%AE%9E%E4%B9%A0%E4%B8%80%E9%9D%A2%E9%9D%A2%E7%BB%8F/">
 
 
 <script id="page-configurations">
@@ -40,13 +43,12 @@
   CONFIG.page = {
     sidebar: "",
     isHome : false,
-    isPost : false,
+    isPost : true,
     lang   : 'zh-CN'
   };
 </script>
 
-  <title>标签 | 冬杨
-</title>
+  <title>美团民宿Web前端暑期实习二面面经 | 冬杨</title>
   
 
 
@@ -156,51 +158,126 @@
       <div class="main-inner">
         <div class="content-wrap">
           
-  
-  
 
-          <div class="content page posts-expand">
+          <div class="content post posts-expand">
             
 
     
-    
-    
-    <div class="post-block" lang="zh-CN">
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2022/03/27/%E8%85%BE%E8%AE%AFWXG%E5%B9%BF%E7%A0%94Web%E5%89%8D%E7%AB%AF%E6%9A%91%E6%9C%9F%E5%AE%9E%E4%B9%A0%E4%B8%80%E9%9D%A2%E9%9D%A2%E7%BB%8F/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.jpg">
+      <meta itemprop="name" content="Conanaptx4869">
+      <meta itemprop="description" content="前端学习记录，包含Vue、JavaScript、HTML、CSS学习历程，面试经历，想到啥写啥">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="冬杨">
+    </span>
       <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          美团民宿Web前端暑期实习二面面经
+        </h1>
 
-<h1 class="post-title" itemprop="name headline">标签
-</h1>
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
 
-<div class="post-meta">
+              <time title="创建时间：2022-03-27 11:30:00 / 修改时间：11:34:43" itemprop="dateCreated datePublished" datetime="2022-03-27T11:30:00+08:00">2022-03-27</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E9%9D%A2%E7%BB%8F/" itemprop="url" rel="index"><span itemprop="name">面经</span></a>
+                </span>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+        <h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>3.25，第五次面试，腾讯WXG广州研发团队一面，工作地点广州，使用腾讯会议线上面试。</p>
+<p>三点通知八点开始，一次不按套路来的面试。。加上电脑没电和断网，状态和体验都不太好。总流程大概90分钟。</p>
+<p>没有录屏，靠记忆记录部分内容</p>
+<p>记录的回答是当时的原话，可能答案是错误的。</p>
+<p>斜体部分为补充的正确答案。</p>
+<h3 id="代码题"><a href="#代码题" class="headerlink" title="代码题"></a>代码题</h3><p>上来先做五十分钟题。。真的怪</p>
+<p><strong>洗牌算法：对52张牌洗牌，要求尽量洗乱，而且原牌不能在原位置上重复</strong></p>
+<p>乱写</p>
+<p><strong>数组存放了数字1至N-1，某个数字重复一次，找出被重复的数字。时间复杂度O(N), 空间复杂度小于O[N]</strong></p>
+<p>看错题了，当场弱智</p>
+<p><strong>找出id是对称数字的人，如3， 121， 12321，不能把整数转为字符串来判断</strong></p>
+<p><strong>判断二叉树中是否存在从根到叶子节点的一个路径，这个路径上所有节点之和为某一个值</strong></p>
+<p><strong>扩展 Token 类，让 create 函数执行后输出以下内容</strong></p>
+<p>看了二十分钟还看不懂的题，面试官讲解了半天发现题出错了。。莫名其妙就跳过了</p>
+<h3 id="项目-amp-问题"><a href="#项目-amp-问题" class="headerlink" title="项目&amp;问题"></a>项目&amp;问题</h3><p>换了个面试官，一上来就让打开项目共享屏幕。。基本是看到哪问哪，随便记一点</p>
+<p><strong>登录功能</strong></p>
+<p><strong>vuex，存什么</strong></p>
+<p><strong>vuex什么时候更新存储的数据</strong></p>
+<p><strong>cookie</strong></p>
+<p><strong>轮播图</strong></p>
+<p><strong>写过node吗</strong></p>
+<p><strong>node和浏览器事件循环区别</strong></p>
+<p>强行讲了浏览器事件循环</p>
+<p><strong>webpack</strong></p>
+<p><strong>treeshaking</strong></p>
+<p><strong>懒加载</strong></p>
+<p><strong>vue-router</strong></p>
+<p><strong>vue-router两种模式的应用场景</strong></p>
+<p>？不知道在问什么，感觉带#号和后端配置都在上面说过了</p>
+<h3 id="反问"><a href="#反问" class="headerlink" title="反问"></a>反问</h3><p>技术栈，好歹终于有用vue的部门了</p>
+<h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h3><p>不知道是不是和锁hc的传言有关，面试总体有点过于随便了，感觉有点不正式。。</p>
+<p>一上来就做题还是第一次见，面试官那边还偶尔有好几个人聊天打闹的声音。题目是用腾讯会议的聊天发过来的，在vs code上面做，然后屏幕共享。。题目出错也是头一回见到。。（虽然出对了八成也看不懂）</p>
+<p>后面的问项目也就不到三十分钟，确实给人一种hc很少，只是随便面面的感觉。。同时自己的表现也不太好，随缘了</p>
+
+    </div>
+
+    
+    
+    
+
+      <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/%E9%9D%A2%E7%BB%8F/" rel="tag"># 面经</a>
+              <a href="/tags/%E8%85%BE%E8%AE%AF/" rel="tag"># 腾讯</a>
+              <a href="/tags/WXG/" rel="tag"># WXG</a>
+          </div>
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2022/03/26/%E7%BE%8E%E5%9B%A2%E6%B0%91%E5%AE%BFWeb%E5%89%8D%E7%AB%AF%E6%9A%91%E6%9C%9F%E5%AE%9E%E4%B9%A0%E4%BA%8C%E9%9D%A2%E9%9D%A2%E7%BB%8F/" rel="prev" title="美团民宿Web前端暑期实习二面面经">
+      <i class="fa fa-chevron-left"></i> 美团民宿Web前端暑期实习二面面经
+    </a></div>
+      <div class="post-nav-item"></div>
+    </div>
+      </footer>
+    
+  </article>
+  
+  
   
 
-</div>
-
-</header>
-
-      
-      
-      
-      <div class="post-body">
-          <div class="tag-cloud">
-            <div class="tag-cloud-title">
-              目前共计 6 个标签
-            </div>
-            <div class="tag-cloud-tags">
-              <a href="/tags/WXG/" style="font-size: 12px; color: #ccc">WXG</a> <a href="/tags/%E5%AD%97%E8%8A%82/" style="font-size: 21px; color: #6f6f6f">字节</a> <a href="/tags/%E7%BE%8E%E5%9B%A2/" style="font-size: 21px; color: #6f6f6f">美团</a> <a href="/tags/%E8%85%BE%E8%AE%AF/" style="font-size: 12px; color: #ccc">腾讯</a> <a href="/tags/%E9%9D%A2%E7%BB%8F/" style="font-size: 30px; color: #111">面经</a> <a href="/tags/%E9%A3%9E%E4%B9%A6/" style="font-size: 21px; color: #6f6f6f">飞书</a>
-            </div>
-          </div>
-        
-      </div>
-      
-      
-      
-    </div>
-    
-
-    
-    
-    
 
 
           </div>
@@ -251,6 +328,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%89%8D%E8%A8%80"><span class="nav-number">1.</span> <span class="nav-text">前言</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%BB%A3%E7%A0%81%E9%A2%98"><span class="nav-number">2.</span> <span class="nav-text">代码题</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%A1%B9%E7%9B%AE-amp-%E9%97%AE%E9%A2%98"><span class="nav-number">3.</span> <span class="nav-text">项目&amp;问题</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%8F%8D%E9%97%AE"><span class="nav-number">4.</span> <span class="nav-text">反问</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%80%BB%E7%BB%93"><span class="nav-number">5.</span> <span class="nav-text">总结</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 
